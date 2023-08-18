@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    width:100vw;
+}
+.nav-bar{
+    position:absolute;
+    height:5rem;
+    width: 100%;
+    padding: 2rem;
+    background-color:black;
+    
+}
+.nav-items{
+    
+    width:50%;
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+    padding-inline: 0.2rem;
+    line-height: 25%;
+    vertical-align: middle;
+}
+.nav-item{
+    position: absolute;
+    padding-block:5 rem;
+    left: 50%;
+    
+}
+
+.nav-item :hover{
+    font-weight: bolder;
+
+}
+.nav-item :after{
+    position: absolute;
+    content: attr(name);
+    width: 10rem;
+    height: 100%;
+    font-size: 1.5rem;
+    text-align: left;
+
+}
+.logo img{
+    height:25%;
+    width:25%
+    
+
+}
+.item{
+    color: black;
+
+}
